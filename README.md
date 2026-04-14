@@ -1,82 +1,94 @@
 <h1 align="center">🛠️ Lizerium.Tools.Structs 🛠️</h1>
 
 <p align="center">
-  Структурная карта инженерных инструментов, исследовательских утилит и вспомогательных программ экосистемы Lizerium
+  Structural map of engineering tools, research utilities, and support applications within the Lizerium ecosystem
 </p>
+
+<div align="center" style="margin: 20px 0; padding: 10px; background: #1c1917; border-radius: 10px;">
+  <strong>🌐 Language: </strong>
+  
+  <a href="./README.ru.md" style="color: #F5F752; margin: 0 10px;">
+    🇷🇺 Russian
+  </a>
+  | 
+  <span style="color: #0891b2; margin: 0 10px;">
+    ✅ 🇺🇸 English (current)
+  </span>
+</div>
 
 ---
 
 > [!NOTE]
-> Этот проект является частью экосистемы **Lizerium** и относится к направлению:
+> This project is part of the **Lizerium** ecosystem and belongs to the following direction:
 >
-> * [`Lizerium.Hub`](https://github.com/Lizerium/Lizerium.Hub)
+> - [`Lizerium.Hub`](https://github.com/Lizerium/Lizerium.Hub)
 >
-> Если вы ищете связанные инженерные и вспомогательные инструменты, начните оттуда.
+> If you are looking for related engineering and supporting tools, start there.
 
-## Назначение
+## Purpose
 
-Этот репозиторий является **структурным индексом инженерного и инструментального слоя** внутри экосистемы **Lizerium**.
+This repository serves as a **structural index of the engineering and tooling layer** within the **Lizerium** ecosystem.
 
-Он не является основной реализацией, а служит как:
+It is not a primary implementation, but acts as:
 
-* карта вспомогательных программных инструментов
-* точка навигации по инженерному tooling-слою
-* описание ролей служебных и исследовательских репозиториев
-* место для логической классификации утилит и технических решений
-* слой архитектурного обзора инструментального контура экосистемы
-
----
-
-## Роль в экосистеме
-
-Этот репозиторий помогает понять:
-
-* какие проекты относятся к инструментальному и инженерному слою Lizerium
-* как разделены редакторы, исследовательские утилиты, анализаторы и служебные приложения
-* где находятся точки входа в технические рабочие процессы
-* как устроена логика вспомогательных инструментов
-* какие компоненты используются для анализа, конвертации, проверки, сопровождения и инженерной поддержки экосистемы
+- a map of supporting software tools
+- a navigation entry point into the engineering tooling layer
+- a description of roles for utility and research repositories
+- a place for logical classification of tools and technical solutions
+- an architectural overview layer of the ecosystem’s tooling domain
 
 ---
 
-## Что входит в это направление
+## Role in the Ecosystem
 
-### 1. 📦 Data и format tooling
+This repository helps to understand:
 
-Инструменты для чтения, анализа, преобразования, сериализации и сопровождения игровых данных и форматов.
-
-* [`LizeriumDataToolkit`](https://github.com/Lizerium/LizeriumDataToolkit)
-* [`FLResourceLibrary`](https://github.com/Lizerium/FLResourceLibrary)
-
----
-
-### 2. 🧪 Анализ, аудит и исследование
-
-Инженерные и исследовательские утилиты, применяемые для проверки, диагностики, аудита и анализа систем.
-
-* [`FreelancerAdminAudit`](https://github.com/Lizerium/FreelancerAdminAudit)
-* [`KnowledgeBase`](https://github.com/Lizerium/KnowledgeBase)
+- which projects belong to the tooling and engineering layer of Lizerium
+- how editors, research utilities, analyzers, and support applications are separated
+- where the entry points into technical workflows are located
+- how the logic of supporting tools is structured
+- which components are used for analysis, conversion, validation, maintenance, and engineering support across the ecosystem
 
 ---
 
-### 3. 🖍️ Редакторы и рабочие UI-инструменты
+## What’s Included in This Direction
 
-Программы и интерфейсы, упрощающие работу с данными, контентом и внутренними форматами.
+### 1. 📦 Data & Format Tooling
 
-* [`CompilerInfocardsUI`](https://github.com/Lizerium/CompilerInfocardsUI)
-* [`LizeriumVSCodeColorPicker`](https://github.com/Lizerium/LizeriumVSCodeColorPicker)
+Tools for reading, analyzing, transforming, serializing, and maintaining game data and formats.
 
----
-
-### 4. 🔄 Подготовка релизов и техническое сопровождение
-
-Вспомогательные инструменты, используемые в инженерных и release-сценариях.
-
-* [`LizeriumFindChanges`](https://github.com/Lizerium/LizeriumFindChanges)
+- [`LizeriumDataToolkit`](https://github.com/Lizerium/LizeriumDataToolkit)
+- [`FLResourceLibrary`](https://github.com/Lizerium/FLResourceLibrary)
 
 ---
 
-## Архитектурная схема
+### 2. 🧪 Analysis, Audit & Research
+
+Engineering and research utilities used for validation, diagnostics, auditing, and system analysis.
+
+- [`FreelancerAdminAudit`](https://github.com/Lizerium/FreelancerAdminAudit)
+- [`KnowledgeBase`](https://github.com/Lizerium/KnowledgeBase)
+
+---
+
+### 3. 🖍️ Editors & UI Tools
+
+Applications and interfaces that simplify working with data, content, and internal formats.
+
+- [`CompilerInfocardsUI`](https://github.com/Lizerium/CompilerInfocardsUI)
+- [`LizeriumVSCodeColorPicker`](https://github.com/Lizerium/LizeriumVSCodeColorPicker)
+
+---
+
+### 4. 🔄 Release Preparation & Technical Support
+
+Supporting tools used in engineering workflows and release scenarios.
+
+- [`LizeriumFindChanges`](https://github.com/Lizerium/LizeriumFindChanges)
+
+---
+
+## Architecture Diagram
 
 ```text
 Lizerium.Tools.Structs
@@ -94,3 +106,4 @@ Lizerium.Tools.Structs
 │
 └── Release Support
     └── LizeriumFindChanges
+```
