@@ -59,6 +59,7 @@ Tools for reading, analyzing, transforming, serializing, and maintaining game da
 
 - [`LizeriumDataToolkit`](https://github.com/Lizerium/LizeriumDataToolkit)
 - [`FLResourceLibrary`](https://github.com/Lizerium/FLResourceLibrary)
+- [`LizeriumUTFtoXML`](https://github.com/Lizerium/LizeriumUTFtoXML)
 
 ---
 
