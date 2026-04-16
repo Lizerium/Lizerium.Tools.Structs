@@ -1,7 +1,10 @@
-<h1 align="center">🛠️ Lizerium.Tools.Structs 🛠️</h1>
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/Lizerium/.github/main/media/logo.png" width="32" style="vertical-align: middle;" />
+  Lizerium.Tools.Structs
+</h1>
 
 <p align="center">
-  Structural map of engineering tools, research utilities, and support applications within the Lizerium ecosystem
+  Map of tools and utilities within the Lizerium ecosystem
 </p>
 
 <div align="center" style="margin: 20px 0; padding: 10px; background: #1c1917; border-radius: 10px;">
@@ -19,93 +22,111 @@
 ---
 
 > [!NOTE]
-> This project is part of the **Lizerium** ecosystem and belongs to the following direction:
+> This repository is part of the **Lizerium** ecosystem:
 >
-> - [`Lizerium.Hub`](https://github.com/Lizerium/Lizerium.Hub)
+> - https://github.com/Lizerium/Lizerium.Hub
+
+---
+
+## What is this
+
+`Lizerium.Tools.Structs` is a map of the tooling layer.
+
+There is no core implementation here.  
+Its purpose is to:
+
+- list available tools
+- show their purpose
+- provide quick navigation
+
+---
+
+## How to use it
+
+> [!TIP]
+> If you are looking for a tool or utility:
 >
-> If you are looking for related engineering and supporting tools, start there.
-
-## Purpose
-
-This repository serves as a **structural index of the engineering and tooling layer** within the **Lizerium** ecosystem.
-
-It is not a primary implementation, but acts as:
-
-- a map of supporting software tools
-- a navigation entry point into the engineering tooling layer
-- a description of roles for utility and research repositories
-- a place for logical classification of tools and technical solutions
-- an architectural overview layer of the ecosystem’s tooling domain
+> 1. Find the relevant section below
+> 2. Open the corresponding repository
+> 3. Work at the implementation level
 
 ---
 
-## Role in the Ecosystem
+## Tools
 
-This repository helps to understand:
+### Data tooling
 
-- which projects belong to the tooling and engineering layer of Lizerium
-- how editors, research utilities, analyzers, and support applications are separated
-- where the entry points into technical workflows are located
-- how the logic of supporting tools is structured
-- which components are used for analysis, conversion, validation, maintenance, and engineering support across the ecosystem
+Tools for working with formats and data:
 
----
-
-## What’s Included in This Direction
-
-### 1. 📦 Data & Format Tooling
-
-Tools for reading, analyzing, transforming, serializing, and maintaining game data and formats.
-
-- [`LizeriumDataToolkit`](https://github.com/Lizerium/LizeriumDataToolkit)
-- [`FLResourceLibrary`](https://github.com/Lizerium/FLResourceLibrary)
-- [`LizeriumUTFtoXML`](https://github.com/Lizerium/LizeriumUTFtoXML)
-- [`LizeriumXMLtoUTF`](https://github.com/Lizerium/LizeriumXMLtoUTF)
+- https://github.com/Lizerium/LizeriumDataToolkit
+- https://github.com/Lizerium/FLResourceLibrary
+- https://github.com/Lizerium/LizeriumUTFtoXML
+- https://github.com/Lizerium/LizeriumXMLtoUTF
 
 ---
 
-### 2. 🧪 Analysis, Audit & Research
+### Analysis and audit
 
-Engineering and research utilities used for validation, diagnostics, auditing, and system analysis.
+Tools for inspection and diagnostics:
 
-- [`FreelancerAdminAudit`](https://github.com/Lizerium/FreelancerAdminAudit)
-- [`KnowledgeBase`](https://github.com/Lizerium/KnowledgeBase)
-
----
-
-### 3. 🖍️ Editors & UI Tools
-
-Applications and interfaces that simplify working with data, content, and internal formats.
-
-- [`CompilerInfocardsUI`](https://github.com/Lizerium/CompilerInfocardsUI)
-- [`LizeriumVSCodeColorPicker`](https://github.com/Lizerium/LizeriumVSCodeColorPicker)
+- https://github.com/Lizerium/FreelancerAdminAudit
+- https://github.com/Lizerium/KnowledgeBase
 
 ---
 
-### 4. 🔄 Release Preparation & Technical Support
+### UI and editors
 
-Supporting tools used in engineering workflows and release scenarios.
+Tools for working with data and content:
 
-- [`LizeriumFindChanges`](https://github.com/Lizerium/LizeriumFindChanges)
+- https://github.com/Lizerium/CompilerInfocardsUI
+- https://github.com/Lizerium/LizeriumVSCodeColorPicker
 
 ---
 
-## Architecture Diagram
+### Release support
 
-```text
+Supporting utilities:
+
+- https://github.com/Lizerium/LizeriumFindChanges
+
+---
+
+## Structure
+
+```
+
 Lizerium.Tools.Structs
 ├── Data Tooling
-│   ├── LizeriumDataToolkit
-│   └── FLResourceLibrary
-│
 ├── Research & Audit
-│   ├── FreelancerAdminAudit
-│   └── KnowledgeBase
-│
 ├── Editors & UI Tools
-│   ├── CompilerInfocardsUI
-│   └── LizeriumVSCodeColorPicker
-│
 └── Release Support
-    └── LizeriumFindChanges
+
 ```
+
+---
+
+## Important
+
+> [!IMPORTANT]
+> This layer contains supporting tools.
+>
+> Core logic, data, and runtime are handled separately:
+>
+> - https://github.com/Lizerium/Lizerium.Software.Structs
+> - https://github.com/Lizerium/Lizerium.Game.Structs
+
+---
+
+## Relations
+
+Connected to:
+
+- https://github.com/Lizerium/Lizerium.Frameworks.Structs — validation and testing
+
+---
+
+## Important
+
+> [!TIP]
+> If you need a specific tool — go to the corresponding repository.  
+> This is only a map.
