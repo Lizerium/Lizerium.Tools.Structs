@@ -64,6 +64,7 @@ Tools for working with formats and data:
 - https://github.com/Lizerium/LizeriumXMLtoUTF
 - https://github.com/Lizerium/Lizerium.UTF.Editor
 - https://github.com/Lizerium/Lizerium.RDL.Converter
+- https://github.com/Lizerium/Lizerium.BINI.Converter
 
 ---
 
