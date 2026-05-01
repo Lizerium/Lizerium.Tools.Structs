@@ -59,6 +59,7 @@
 Инструменты для работы с форматами и данными:
 
 - https://github.com/Lizerium/LizeriumDataToolkit
+- https://github.com/Lizerium/Lizerium.Localization.Toolkit
 - https://github.com/Lizerium/FLResourceLibrary
 - https://github.com/Lizerium/LizeriumUTFtoXML
 - https://github.com/Lizerium/LizeriumXMLtoUTF
